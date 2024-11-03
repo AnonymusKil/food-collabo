@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'DM Sans' sans-serif;
+   
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content:space-between;
+    /* height: 10vh; */
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    nav{
+        display: flex;
+    }
+    button{
+        background-color: transparent;
+        border-radius: 10px;
+        padding: 5px;
+    }
+}
+.flex-container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    /* max-width: 110px; */
+}
+.flex-container-2 img{
+    /* flex: 1; */
+    width: 270px;
+    border-radius: 8px;
+}
+.parants{
+    /* display: flex;
+    align-items: center; */
+    flex: 0.5;
+    /* flex-direction: column; */
+    position: relative;
+
+}
+.parents{
+    position: absolute;
+    bottom: 20px;
+    left: 45px;
+    /* top: ; */
+    padding:  1.5rem;
+    border-radius: 8px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    transform: translateY(15%);
+    /* left: 0;
+    transform: translateX(70%);
+    transform: translateY(15%);
+    margin-top: 0;
+    transform: translate(-28%,37%);
+    right:0;
+    padding: 19px;
+    color: white;
+    background-color: black;
+    top: 0; */
+    
+}
+.about{
+    /* padding: 10px; */
+    border: 1px solid black;
+    color: #333;
+    background-color: transparent;
+    padding: 0.7rem 1.5rem;
+    margin-top: 0.5rem;
+    border-radius: 9px;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+.h1-1{
+    font-size: 1.9rem;
+    margin-bottom: 0.5rem;
+}
+.bg-about{
+    text-align: center;
+    padding: 3rem;
+    background-image: url(/image/BG-about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    color: white;
+}
+.bgs{
+    padding: 1rem;
+}
+/* .bgs{
+    background-image: url(/image/BG-about.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+} */
+ .features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+ }
+ .features-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+ }
+ .information-seniors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .abous img{
+    width: 250px;
+ }
+ .cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    /* margin-left: 1rem; */
+ }
+ .snrs{
+    padding: 1.5rem;
+ }
+ .abous{
+    margin-left: 1rem;
+ }
+ .card{
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    /* margin-left:1rem ; */
+ }
+ .testimonials-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+ }
+.elipse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.txt{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.txt-senior{
+    padding: 2rem;
+}
+.dey-play{
+    margin-bottom: 1rem;
+}
+.testimonials{
+    border-radius: 10px;
+    padding: 1.5rem;
+    background-color: rgba(249, 249, 247, 1);
+}
+.del{
+    font-weight: bold;
+    color: rgba(173, 52, 62, 1);
+}
+footer{
+    background-color: rgba(65, 69, 54, 1);
+    padding: 1.5rem;
+}
+.footer-containeres{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 1rem;
+
+    justify-content: space-evenly;
+    /* background-color: rgba(65, 69, 54, 1); */
+
+    /* align-items: center; */
+}
+.links{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.links-1{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+    }
+}
+.footer-images-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.copy{
+    text-align: center;
+    color: white;
+}
+.copy-right{
+    margin-top: 1rem;
+}
+button{
+    cursor: pointer;
+}

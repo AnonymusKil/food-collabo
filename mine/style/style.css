@@ -1,0 +1,313 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'DM Sans' sans-serif;
+   
+}
+/* body{
+    height: 90vh;
+} */
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content:space-between;
+    /* height: 10vh; */
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    nav{
+        display: flex;
+    }
+    button{
+        background-color: transparent;
+        border-radius: 10px;
+        padding: 5px;
+    }
+}
+.hero-section{
+    /* text-align: center; */
+    /* padding: 10px; */
+    background-image: url(/image/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 90vh; */
+    height: 50vh;
+    .colored{
+        background-color: rgba(173, 52, 62, 1);
+        border: none;
+        padding: 10px;
+        font-weight: bold;
+        color: white;
+        border-radius: 19px;
+    }
+    .not-colored{
+        background-color: transparent;
+        border: 1px solid rgba(44, 47, 36, 1);
+        padding: 10px;
+        border-radius: 17px;
+        font-weight: bold;
+    }
+    .buttons{
+        margin-top: 0.7rem;
+    }
+}
+/* for text sides of hero sections */
+.text-sides{
+    text-align: center;
+    padding: 7rem;
+    /* width: 100%; */
+
+}
+.text-sides h1{
+    font-size: 2.5rem;
+    text-wrap: balance;
+}
+.food-explore{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1.5rem;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.food-boder{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    a{
+        text-decoration: none;
+        color:rgba(173, 52, 62, 1) ;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+}
+.flex-container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    /* max-width: 110px; */
+}
+.flex-container-2 img{
+    /* flex: 1; */
+    width: 270px;
+    border-radius: 8px;
+}
+.parants{
+    /* display: flex;
+    align-items: center; */
+    flex: 0.5;
+    /* flex-direction: column; */
+    position: relative;
+
+}
+.parents{
+    position: absolute;
+    bottom: 20px;
+    left: 45px;
+    /* top: ; */
+    padding:  1.5rem;
+    border-radius: 8px;
+    width: 250px;
+    background-color: black;
+    color: white;
+    transform: translateY(15%);
+    /* left: 0;
+    transform: translateX(70%);
+    transform: translateY(15%);
+    margin-top: 0;
+    transform: translate(-28%,37%);
+    right:0;
+    padding: 19px;
+    color: white;
+    background-color: black;
+    top: 0; */
+    
+}
+.about{
+    /* padding: 10px; */
+    border: 1px solid black;
+    color: #333;
+    background-color: transparent;
+    padding: 0.7rem 1.5rem;
+    margin-top: 0.5rem;
+    border-radius: 9px;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+.h1-1{
+    font-size: 1.9rem;
+    margin-bottom: 0.5rem;
+}
+.flex-cotrainer-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex: 0;
+}
+.flex-cotrainer-3-senior{
+    padding: 2rem;
+}
+.flex-cotrainer-3 img{
+    width: 100%;
+}
+.flex-container-4-1{
+    display: flex;
+    max-width: 1200px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-left: auto;
+    /* width: 50%; */
+    /* flex-wrap: wrap; */
+    margin-right: auto;
+
+}
+.images{
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    /* gap: 15px; */
+    justify-content: center;
+    /* margin-left:5rem ; */
+}
+/* .text-sections{
+    margin-left: -4rem;
+} */
+
+ .text-sections-1{
+/* flex: 1; */
+/* margin-left: -3rem; */
+/* width: 100px; */
+/* display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column; */
+max-width: 500px;
+ }
+ .icon-flx{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    /* justify-content: center; */
+ }
+ .testimonials-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+ }
+.elipse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.txt{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.txt-senior{
+    padding: 2rem;
+}
+.testimonials{
+    border-radius: 10px;
+    padding: 1.5rem;
+    background-color: rgba(249, 249, 247, 1);
+}
+.del{
+    font-weight: bold;
+    color: rgba(173, 52, 62, 1);
+}
+.first-close-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .cl{
+        padding: 10px;
+        color: white;
+        background-color: rgba(173, 52, 62, 1) ;
+        border: none;
+    }
+}
+.closer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 0.5em;
+}
+.genral-images-wonbe{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2,1fr);
+}
+.wonja{
+    padding: 1.5rem;
+}
+footer{
+    background-color: rgba(65, 69, 54, 1);
+    padding: 1.5rem;
+}
+.footer-containeres{
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 1rem;
+
+    justify-content: space-evenly;
+    /* background-color: rgba(65, 69, 54, 1); */
+
+    /* align-items: center; */
+}
+.links{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+.links-1{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+    }
+}
+.footer-images-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.copy{
+    text-align: center;
+    color: white;
+}
+.hg{
+    font-size: 1.5rem;
+}
+button{
+    cursor: pointer;
+}
